@@ -3,6 +3,9 @@
 SoftwareSerial _wifi2(12, 13); // RX, TX
 String _strResponse;
 
+//-- testing feature
+
+
 void _WriteCommand(const char *  val)
 {
    _wifi2.write(val);
